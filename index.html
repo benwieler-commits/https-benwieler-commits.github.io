@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ground & Grow — Gentle emotional support</title>
+  <meta name="description" content="Ground & Grow: a small supportive app to help you name feelings, ground, and state boundaries. Not a therapist." />
+  <style>
+    :root{--accent:#6b8eff;--bg:#fbfbfe;--muted:#666;--card:#fff}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:linear-gradient(180deg,#fbfbfe,#f5f7ff);color:#111}
+    header{padding:40px 20px;text-align:center}
+    .hero{max-width:900px;margin:0 auto;padding:20px;background:transparent}
+    h1{font-size:2rem;margin:0 0 8px}
+    p.lead{margin:0 0 20px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;max-width:900px;margin:20px auto}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 20px rgba(45,55,80,0.06)}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--accent);color:white;text-decoration:none}
+    footer{padding:28px 20px;text-align:center;color:var(--muted);font-size:14px}
+    nav{display:flex;justify-content:center;gap:12px;margin-top:12px}
+    a.ghost{background:transparent;color:var(--accent);padding:8px 12px;border-radius:8px;text-decoration:none;border:1px solid rgba(107,138,255,0.12)}
+    .small{font-size:13px;color:var(--muted)}
+    pre{white-space:pre-wrap;font-size:13px}
+    /* Responsive tweaks */
+    @media(min-width:760px){h1{font-size:2.6rem}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero card" style="text-align:left;">
+      <h1>Ground & Grow</h1>
+      <p class="lead">A privacy-first, supportive companion to help you name feelings, ground, set boundaries, and prepare short, clear messages — with an optional gentle AI rephrasing layer. Not a medical service.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;align-items:center">
+        <a class="btn" href="#download">Download APK</a>
+        <a class="ghost" href="#privacy">Privacy & Safety</a>
+        <a class="ghost" href="#contact">Contact</a>
+      </div>
+      <nav>
+        <a class="small">Made for neurodiverse & trauma-informed users</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid" aria-label="features">
+      <div class="card">
+        <h3>Check-ins & labeling</h3>
+        <p class="small">Quick prompts to name what you feel and rate intensity. Option to save locally or export securely to a clinician.</p>
+      </div>
+      <div class="card">
+        <h3>Grounding exercises</h3>
+        <p class="small">Short, scriptable exercises (5‑4‑3‑2‑1, breath boxes, body scans) with audio and vibration support on Android.</p>
+      </div>
+      <div class="card">
+        <h3>Boundary scripts</h3>
+        <p class="small">Ready-to-use, practiceable communication templates. Tailored short scripts for different attachment styles.</p>
+      </div>
+      <div class="card">
+        <h3>Private journal</h3>
+        <p class="small">Local-only storage by default. Export or delete data anytime. Optional encrypted cloud backup if you enable it.</p>
+      </div>
+    </section>
+
+    <section style="max-width:900px;margin:30px auto;padding:0 20px">
+      <div class="card">
+        <h2 id="download">Try it</h2>
+        <p class="small">During early testing you can sideload the APK. When you publish in Google Play, you can link to your Play listing here.</p>
+        <p class="small">(Replace the download link below with your APK or Play Store URL.)</p>
+        <p><a class="btn" href="/download/ground-and-grow.apk">Download APK (placeholder)</a></p>
+      </div>
+    </section>
+
+    <!-- PRIVACY POLICY SECTION (full policy lives here on the same page so you can use GitHub Pages URL as your privacy URL) -->
+    <section id="privacy" style="max-width:900px;margin:30px auto;padding:20px" aria-labelledby="privacyTitle">
+      <div class="card">
+        <h2 id="privacyTitle">Privacy & Safety Policy — Ground & Grow</h2>
+        <p class="small">Effective date: <strong>September 19, 2025</strong>. <br>This policy explains how the Ground & Grow app ("the App") collects, uses, and protects information. The App is a supportive self-help tool, not a replacement for professional medical care.</p>
+
+        <h3>1. Scope</h3>
+        <p class="small">This policy covers data collected by the App and by any online services the App integrates with (for example, optional AI services). If you choose to enable cloud backups or AI features, additional third-party policies may apply.</p>
+
+        <h3>2. What we collect</h3>
+        <ul class="small">
+          <li><strong>Local journal entries & check-ins</strong> — saved on your device by default. This includes feelings, intensity ratings, tags, and optional private notes.</li>
+          <li><strong>App settings</strong> — preferences like neurodivergent mode, DID safe-mode toggles, and UI choices.</li>
+          <li><strong>Optional data</strong> — if you enable encrypted cloud backup or clinician-sharing, backups or exported files may be uploaded to your chosen cloud provider or sent to your clinician with your explicit consent.</li>
+          <li><strong>AI conversation text</strong> — if you use the AI Companion chat, the text you send will be transmitted to the selected AI provider. We do not store chat content on our servers unless you explicitly enable local or cloud logging.</li>
+          <li><strong>No automatic telemetry</strong> — by default we do not collect analytics or telemetry from your device. Any analytics are only enabled with your opt-in and are minimised.</li>
+        </ul>
+
+        <h3>3. How we use data</h3>
+        <p class="small">We use data to provide app functionality: show past check-ins, power local search, enable backups, and to let the AI Companion generate compassionate reflections when you ask. We will never use your data for advertising.</p>
+
+        <h3>4. Third parties & AI</h3>
+        <p class="small">If you enable the AI Companion, your messages are sent to the selected AI provider to generate a reply. The AI provider's privacy policy governs how they process that text. We recommend reviewing those providers' policies before enabling the feature.</p>
+
+        <h3>5. Sharing & disclosures</h3>
+        <p class="small">We do not share your personal data with third parties except when you explicitly request it (for example, exporting a report to a clinician), or to comply with the law. In case of an emergency (imminent harm), the App displays crisis resources but does not automatically send data to emergency services.</p>
+
+        <h3>6. Security</h3>
+        <p class="small">Local data is stored on-device. Backups (if enabled) are encrypted before upload. We use industry-standard encryption algorithms for data-in-transit and at-rest when using optional cloud features. No system is perfectly secure; please weigh privacy vs convenience when enabling cloud options.</p>
+
+        <h3>7. Your choices & rights</h3>
+        <ul class="small">
+          <li><strong>Access</strong> — You can view all saved entries locally in the App.</li>
+          <li><strong>Export</strong> — Export your data as an encrypted file for sharing with a clinician.</li>
+          <li><strong>Delete</strong> — Delete your local data at any time from the App settings. If you enabled cloud backups, you must also delete backups from your cloud account.</li>
+          <li><strong>Opt-out</strong> — You can opt out of AI logging and analytics in Settings.</li>
+        </ul>
+
+        <h3>8. Children</h3>
+        <p class="small">The App is not intended for children under 13. We do not knowingly collect information from children under 13. If you believe a child has provided personal data, please contact us at the address below to request deletion.</p>
+
+        <h3>9. Crisis & safety</h3>
+        <p class="small">The App provides crisis contact information but is not an emergency service. If you are in immediate danger, call your local emergency number. In the United States, call or text <strong>988</strong>. In Canada, call or text <strong>9‑8‑8</strong>. The App's crisis resources may vary by region in future updates.</p>
+
+        <h3>10. Legal disclaimers</h3>
+        <p class="small">Ground & Grow is a support tool and not a healthcare provider. The App does not provide medical advice, diagnosis, or treatment. Always consult a qualified professional for medical questions.</p>
+
+        <h3>11. Changes to this policy</h3>
+        <p class="small">We will post the effective date above and notify users about major changes when possible. Continued use after changes constitutes consent to the updated policy.</p>
+
+        <h3>12. Contact</h3>
+        <p class="small">Questions or requests? Email: <strong>YOUR_CONTACT_EMAIL@example.com</strong>. Replace this with your contact address before publishing.</p>
+
+        <hr />
+        <p class="small">-- End of privacy policy. Replace placeholder contacts and any bracketed text before publishing. This privacy policy is a starting point and not legal advice; consider consulting a privacy lawyer if you plan to collect or transmit identifiable health data.</p>
+      </div>
+    </section>
+
+    <section id="contact" style="max-width:900px;margin:30px auto;padding:0 20px">
+      <div class="card">
+        <h3>Contact & feedback</h3>
+        <p class="small">Email: <strong>YOUR_CONTACT_EMAIL@example.com</strong> — replace with your real address.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="small">Built with care • Replace placeholder content before publishing • Effective date: Sept 19, 2025</div>
+  </footer>
+</body>
+</html>
